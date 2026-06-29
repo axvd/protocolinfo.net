@@ -4,8 +4,18 @@
   <url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/development/</loc>
+  </url><url>
+    <loc>http://localhost:1313/network/</loc>
+  </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>
+    <loc>http://localhost:1313/protocol/</loc>
+  </url><url>
+    <loc>http://localhost:1313/rfc/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/wireshark/</loc>
   </url>
 </urlset>

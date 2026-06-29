@@ -1,3 +1,4 @@
 baseURL = "https://protocolinfo.net/"
 title = "ProtocolInfo.net"
 languageCode = "en-us"
+theme = "shadocs"

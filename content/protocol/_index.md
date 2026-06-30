@@ -23,7 +23,7 @@ Each protocol page is designed to include:
 
 | Protocol | Layer | Notes |
 |---|---|---|
-| TCP | Transport | Reliable byte-stream transport |
+| [TCP](/protocol/tcp) | Transport | Reliable byte-stream transport |
 | UDP | Transport | Connectionless datagram transport |
 | IPv4 | Internet | Internet Protocol version 4 |
 | IPv6 | Internet | Internet Protocol version 6 |

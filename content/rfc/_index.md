@@ -13,13 +13,13 @@ This section contains RFC references, summaries, protocol relationships, and imp
 | RFC | Topic |
 |---|---|
 | [RFC791](/rfc/rfc791.html) | Internet Protocol |
-| RFC792 | Internet Control Message Protocol |
-| RFC793 | Transmission Control Protocol |
-| RFC768 | User Datagram Protocol |
-| RFC1034 | Domain Names - Concepts and Facilities |
-| RFC1035 | Domain Names - Implementation and Specification |
-| RFC8200 | IPv6 Specification |
-| RFC9293 | Transmission Control Protocol |
+| [RFC792](/rfc/rfc792.html) | Internet Control Message Protocol |
+| [RFC793](/rfc/rfc793.html) | Transmission Control Protocol |
+| [RFC768](/rfc/rfc768.html) | User Datagram Protocol |
+| [RFC1034](/rfc/rfc1034) | Domain Names - Concepts and Facilities |
+| [RFC1035](/rfc/rfc1035) | Domain Names - Implementation and Specification |
+| [RFC8200](/rfc/rfc8200) | IPv6 Specification |
+| [RFC9293](/rfc/rfc9293) | Transmission Control Protocol |
 
 ## Structure
 

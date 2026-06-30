@@ -12,7 +12,7 @@ This section contains RFC references, summaries, protocol relationships, and imp
 
 | RFC | Topic |
 |---|---|
-| [RFC791](rfc/791) | Internet Protocol |
+| [RFC791](/rfc/rfc791.html) | Internet Protocol |
 | RFC792 | Internet Control Message Protocol |
 | RFC793 | Transmission Control Protocol |
 | RFC768 | User Datagram Protocol |

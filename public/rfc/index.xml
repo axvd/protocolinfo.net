@@ -5,9 +5,11 @@
 		<link>http://localhost:1313/rfc/</link>
 		<description>Recent content in RFC Encyclopedia on ProtocolInfo.net</description>
 		<generator>Hugo</generator>
-		<language>en-us</language>
+		<language>en</language>
 		
 		
+		
+			<copyright>ProtocolInfo.net</copyright>
 		
 		
 			<atom:link href="http://localhost:1313/rfc/index.xml" rel="self" type="application/rss+xml" />

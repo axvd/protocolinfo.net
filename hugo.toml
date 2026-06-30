@@ -1,7 +1,72 @@
 baseURL = "https://protocolinfo.net/"
 title = "ProtocolInfo.net"
-locale = "en-us"
+copyright = "ProtocolInfo.net"
+defaultContentLanguage = "en"
+enableGitInfo = true
+enableEmoji = true
+publishDir = "public"
+ignoreLogs = ['warning-goldmark-raw-html']
 
 [module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.156.0"
+
   [[module.imports]]
     path = "github.com/jgazeau/shadocs"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+
+  [markup.tableOfContents]
+    ordered = false
+    startLevel = 2
+    endLevel = 4
+
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[languages]
+  [languages.en]
+    contentDir = "content"
+    title = "ProtocolInfo.net"
+    weight = 1
+    languageName = "English"
+
+[params]
+  homeLayout = "onboarding"
+  siteContentOrder = "weight"
+  currentVersion = "latest"
+  darkMode = true
+  toc = true
+
+  logo = "images/logo.png"
+  logoTouch = "images/logo.png"
+  favicon = "images/favicon.png"
+
+[params.author]
+  name = "ProtocolInfo.net"
+
+[params.taxonomies]
+  [params.taxonomies.categories]
+    icon = "fa-solid fa-table-cells"
+
+  [params.taxonomies.tags]
+    icon = "fa-solid fa-tag"
+
+[[params.navbar.versions]]
+  name = "latest"
+  url = "https://protocolinfo.net/"
+
+[params.includes]
+  js = []
+  jsModules = []
+  css = []
+  scss = []
